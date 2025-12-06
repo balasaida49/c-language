@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float s, a;
+
+    printf("Enter S value ");
+    scanf("%f", &s);
+    a = s * s;
+    printf("%f",a);
+
+    return 0;
+}
